@@ -1,0 +1,33 @@
+{
+  "name": "fritz-backend",
+  "version": "1.0.0",
+  "license": " GPL-3.0",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "mocha --recursive --reporter spec",
+    "lint": "eslint test src"
+  },
+  "dependencies": {
+    "flyd": "^0.2.2",
+    "folktale": "^2.0.0-alpha1",
+    "immutable": "^3.7.6",
+    "node-ssdp": "^2.8.0",
+    "ramda": "^0.22.1",
+    "request": "^2.75.0",
+    "request-promise-native": "^1.0.3",
+    "tcomb": "^3.2.15",
+    "ws": "^1.1.1"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint": "^3.7.1",
+    "eslint-config-airbnb-base": "^8.0.0",
+    "eslint-plugin-import": "^1.16.0",
+    "get-port": "^2.1.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.1.2",
+    "mockery": "^2.0.0",
+    "npm-run-all": "^3.1.1"
+  }
+}
