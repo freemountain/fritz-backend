@@ -1,0 +1,6 @@
+#EXTINF:-1,***** GERMANY *****
+rtsp://first.de:554/?freq=1
+#EXTINF:-1,DE | SKY MGM HD
+rtsp://second.de:554/?freq=2
+#EXTINF:-1,DE | D MAX
+rtsp://third.de:554/?freq=3

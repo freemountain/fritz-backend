@@ -50,8 +50,8 @@ describe('playlist source', () => {
       const listA = result[0].value;
       const listB = result[1].value;
 
-      expect(listA.streams).to.have.lengthOf(6);
-      expect(listB.streams).to.have.lengthOf(6);
+      expect(listA.streams).to.have.lengthOf(3);
+      expect(listB.streams).to.have.lengthOf(3);
     });
   });
 });

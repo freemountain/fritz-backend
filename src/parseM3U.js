@@ -34,11 +34,7 @@ function parse(f) {
 
   lines.pop(); // last line is empty
 
-  if (!extended) {
-    return lines.map(line => ({ url: line }));
-  }
-
-  lines.shift(); // remove header line
+  if (extended) lines.shift(); // remove header line
 
   while (lines.length > 0) {
     l = lines.shift();
@@ -51,7 +47,4 @@ function parse(f) {
   return items.map(parseItem);
 }
 
-function toSource(data) {
-
-}
 module.exports = parse;
